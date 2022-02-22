@@ -236,7 +236,7 @@ class DataListInherited extends InheritedWidget {
       {Key key, this.list, this.symmetry, this.itemCount, Widget child})
       : super(key: key, child: child);
 
-  final List<DataList> list;
+  List<DataList> list = [];
   final bool symmetry;
   final int itemCount;
 
