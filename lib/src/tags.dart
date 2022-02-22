@@ -240,7 +240,7 @@ class DataListInherited extends InheritedWidget {
       required Widget child})
       : super(key: key, child: child);
 
-  final List<DataList>? list;
+  List<DataList>? list = [];
   final bool? symmetry;
   final int? itemCount;
 
